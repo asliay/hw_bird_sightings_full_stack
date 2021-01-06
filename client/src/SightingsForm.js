@@ -20,7 +20,7 @@ const SightingsForm = ({addSighting}) => {
     return (
         <form onSubmit={onSubmit} id="sightings-form" >
             <h2>Add a Sighting</h2>
-            <div class="formWrap">
+            <div className="formWrap">
                 <label for="species">Species:</label>
                 <input onChange={onChange} type="text" id="species"  />
             </div>
